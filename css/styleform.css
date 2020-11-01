@@ -42,7 +42,7 @@ h1{
    
 }
 
-/* style de la boite de chat  */
+/* style Chatbox */
 
 .box{
     position: absolute;
@@ -146,5 +146,10 @@ div .border4{
     }
     
 }
+
+
+
+ /* mon bouton envoyer */
+ 
  
  

@@ -46,7 +46,7 @@
                     mail : <input type="text" name="email">
 
                     <br><br>
-                    <input type="submit" value="Envoyez"></p>
+                    <input type="submit" value="Envoyez" ></p>
 
             </form>
         </div>

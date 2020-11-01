@@ -1,0 +1,150 @@
+
+body{
+    background-color: rgb(72, 163, 199);
+    /* text-align: center; */
+    margin: 0;
+}
+
+.cloud{
+
+    width:600px;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.montexte {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.champ{
+  display: flex;
+  justify-content: space-around;
+}
+  
+
+.resp{
+    width: 100%;
+    height: auto;
+}
+
+body > div .cloud{
+    z-index: 1000;
+}
+
+
+h1{
+    color: rgb(71, 69, 69);
+    position: relative;
+   
+}
+
+/* style de la boite de chat  */
+
+.box{
+    position: absolute;
+    top: 430px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    background: #111845a6;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgb(23, 32, 90);
+    border: 2px solid #2a3cad;
+    color: white;
+    padding: 20px;
+    z-index: 10;
+  }
+  
+
+  .box span{
+    width: 100%;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+  }
+    
+div .border1{
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+
+div .border2{
+    position: absolute;
+   
+}
+
+div .border3{
+    position: absolute;
+    top: 0;
+    left: 150px;
+}
+
+div .border4{
+    position: absolute;
+ 
+}
+
+  .box span:nth-child(1)
+  {
+    transform:rotate(0deg);
+  }
+  
+  .box span:nth-child(2)
+  {
+    transform:rotate(90deg);
+  }
+  
+  .box span:nth-child(3)
+  {
+    transform:rotate(180deg);
+  }
+  
+  .box span:nth-child(4)
+  {
+    transform:rotate(270deg);
+  }
+  
+  .box .border1, .border3:before
+  {
+    content: '';
+    position: absolute;
+    width:100%;
+    height: 2px;
+    background: #50dfdb;
+    animation: animate 5s linear infinite;
+  }
+  
+  @keyframes animate {
+    0% {
+    transform:scaleX(0);
+    transform-origin: left;
+    }
+    50%
+    {
+      transform:scaleX(1);
+    transform-origin: left;
+    }
+    50.1%
+    {
+      transform:scaleX(1);
+    transform-origin: right;
+      
+    }
+    
+    100%
+    {
+      transform:scaleX(0);
+    transform-origin: right;
+      
+    }
+    
+}
+ 
+ 

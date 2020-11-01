@@ -9,16 +9,7 @@
 </head>
 
 <body>
-    <?php
-    // Connexion a la bdd 
 
-    try {
-        $bdd = new
-            PDO('mysql:host=localhost;dbname=minichat1;charset=utf8', 'root', '');
-    } catch (Exception $e) {
-        die('Erreur : ' . $e->getMessage('hola mon gars'));
-    }
-    ?>
     <?php
     $pseudo = $_POST['pseudo'];
     ?>

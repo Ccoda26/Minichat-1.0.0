@@ -16,15 +16,7 @@
         </div>
     </div>
     <!-- Connexion a la bdd -->
-    <?php
 
-    try {
-        $bdd = new
-            PDO('mysql:host=localhost;dbname=minichat1;charset=utf8', 'root', '');
-    } catch (Exception $e) {
-        die('Erreur : ' . $e->getMessage('hola mon gars'));
-    }
-    ?>
 
     <!-- insert dans bdd -->
     <?php
